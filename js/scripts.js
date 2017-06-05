@@ -48,7 +48,7 @@ var playerPointsElem = document.getElementById('js-playerPoints'),
     computerPointsElem = document.getElementById('js-computerPoints');
 
 function newGame() {
-	player.name = ('Please enter your name', 'imię gracza');
+	player.name = prompt('Please enter your name', 'imię gracza');
 	if (player.name) {
 		player.score = computer.score = 0;
 		gameState ='started';
