@@ -114,12 +114,12 @@ function checkRoundWinner(playerPick,computerPick) {
  
        	if(player.score == 10){
        	  gameState ='ended';
-       	  console.log('Congratulation.You won!!!');
+       	  alert('Congratulation.You won!!!');
        	  setGameElements();
         }
          else if (computer.score == 10) {
           gameState ='ended';
-          console.log('Computer won. Try again.');
+          alert('Computer won. Try again.');
           setGameElements();
         }
     setGamePoints();
